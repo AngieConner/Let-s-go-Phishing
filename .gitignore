@@ -1,0 +1,13 @@
+# Python's automatic temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments (private copies of Python some people use)
+.venv/
+venv/
+
+# Generated reports - they may contain details from real, private emails
+reports/
+
+# Never upload real emails you analyze. Keep them in a folder named "private".
+private/

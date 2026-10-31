@@ -1,0 +1,54 @@
+Return-Path: <bounce@mailer-7781.top>
+Received: from mailer-7781.top (unknown [203.0.113.45])
+        by mx.example.net with ESMTP id 4XyZ123
+        for <jordan@example.net>; Fri, 30 Oct 2026 08:12:44 -0400
+Authentication-Results: mx.example.net;
+       spf=fail (sender IP is 203.0.113.45) smtp.mailfrom=mailer-7781.top;
+       dkim=none (message not signed);
+       dmarc=fail action=none header.from=paypa1-support.com
+From: "PayPal Security" <security@paypa1-support.com>
+Reply-To: account-recovery@secure-mailbox.xyz
+To: jordan@example.net
+Subject: URGENT: Your account has been suspended
+Date: Fri, 30 Oct 2026 08:12:40 -0400
+Message-ID: <20261030081240.1234@paypa1-support.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="outer-boundary"
+
+--outer-boundary
+Content-Type: multipart/alternative; boundary="inner-boundary"
+
+--inner-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We noticed unusual activity on your account and it has been suspended.
+To restore access you must verify your account within 24 hours or it will be closed.
+
+Verify now: http://paypa1-support.com.account-verify.top/login
+
+PayPal Security Team
+
+--inner-boundary
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We noticed <b>unusual activity</b> on your account and it has been <b>suspended</b>.</p>
+<p>To restore access you must verify your account within 24 hours or it will be closed.</p>
+<p><a href="http://paypa1-support.com.account-verify.top/login">https://www.paypal.com/signin</a></p>
+<p>Questions? <a href="https://bit.ly/3xYzAbc">Contact support</a>.</p>
+<p>PayPal Security Team</p>
+</body></html>
+
+--inner-boundary--
+
+--outer-boundary
+Content-Type: text/html; name="Account_Verification_Form.html"
+Content-Disposition: attachment; filename="Account_Verification_Form.html"
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>Training sample attachment - contains no real content.</p></body></html>
+
+--outer-boundary--
