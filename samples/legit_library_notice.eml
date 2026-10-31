@@ -1,0 +1,44 @@
+Return-Path: <notices@riversidelibrary.org>
+Received: from mail.riversidelibrary.org (mail.riversidelibrary.org [198.51.100.20])
+        by mx.example.net with ESMTPS id 9AbC456
+        for <jordan@example.net>; Thu, 29 Oct 2026 10:02:11 -0400
+Authentication-Results: mx.example.net;
+       spf=pass smtp.mailfrom=riversidelibrary.org;
+       dkim=pass header.d=riversidelibrary.org;
+       dmarc=pass header.from=riversidelibrary.org
+From: Riverside Public Library <notices@riversidelibrary.org>
+To: jordan@example.net
+Subject: Reminder: 2 items due next week
+Date: Thu, 29 Oct 2026 10:02:05 -0400
+Message-ID: <reminder-88213@riversidelibrary.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="library-boundary"
+
+--library-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Hi Jordan,
+
+This is a friendly reminder that these items are due on November 6:
+
+ - "The Code Book" by Simon Singh
+ - "Ghost in the Wires" by Kevin Mitnick
+
+You can renew them online at https://www.riversidelibrary.org/my-items
+or at the front desk.
+
+Thanks for reading with us!
+Riverside Public Library
+
+--library-boundary
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi Jordan,</p>
+<p>This is a friendly reminder that these items are due on November 6:</p>
+<ul><li>"The Code Book" by Simon Singh</li><li>"Ghost in the Wires" by Kevin Mitnick</li></ul>
+<p>You can <a href="https://www.riversidelibrary.org/my-items">renew them online</a> or at the front desk.</p>
+<p>Thanks for reading with us!<br>Riverside Public Library</p>
+</body></html>
+
+--library-boundary--
